@@ -61,7 +61,7 @@ const _deprecatedMessageTypes = [
 ];
 
 
-if (!process.env.NTBA_FIX_319) {
+if (false) {
   // Enable Promise cancellation.
   try {
     const msg =
